@@ -13,6 +13,8 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        getSupportActionBar().hide();
+
 new Handler().postDelayed(new Runnable() {
     @Override
     public void run() {
@@ -22,9 +24,6 @@ new Handler().postDelayed(new Runnable() {
         startActivity(splashtoViewpager);
     }
 },3000);
-
-
-
 
     }
 }
