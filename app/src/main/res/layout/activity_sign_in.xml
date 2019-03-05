@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:gravity="center"
-        android:text="Ojoo"
+        android:text="Sign In"
         android:textColor="#FFFFFF"
         android:textSize="27sp"
         android:textStyle="bold" />
