@@ -20,9 +20,9 @@ public class ViewPagerActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
         vpFirst = findViewById(R.id.vpFirst);
-        tabOne = findViewById(R.id.tabOne);
+       // tabOne = findViewById(R.id.tabOne);
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         vpFirst.setAdapter(adapter);
-        tabOne.setupWithViewPager(vpFirst);
+      //  tabOne.setupWithViewPager(vpFirst);
     }
 }

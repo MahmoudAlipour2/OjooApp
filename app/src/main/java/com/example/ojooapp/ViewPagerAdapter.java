@@ -19,9 +19,9 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
             case 0:
                 return new FirstFragment();
             case 1:
-                return new FirstFragment();
+                return new SecondFragment();
             case 2:
-                return new FirstFragment();
+                return new ThirdFragment();
             default:
                 return new FirstFragment();
         }
@@ -32,7 +32,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         return 3;
     }
 
-    @Nullable
+/*    @Nullable
    @Override
     public CharSequence getPageTitle(int position) {
 
@@ -48,5 +48,5 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
                 return "Unknown page!";
         }
 
-    }
+    }*/
 }
