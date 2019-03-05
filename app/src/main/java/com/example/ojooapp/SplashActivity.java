@@ -19,8 +19,6 @@ new Handler().postDelayed(new Runnable() {
     @Override
     public void run() {
         Intent splashtoViewpager = new Intent(SplashActivity.this,ViewPagerActivity.class);
-
-        //Do Next: send to ViewpagerActivity
         startActivity(splashtoViewpager);
     }
 },3000);

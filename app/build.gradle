@@ -26,6 +26,9 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:28.0.2'
     implementation 'com.android.support:design:28.0.2'
 
+    //smart tablayout
+    implementation 'com.ogaclejapan.smarttablayout:library:1.7.0@aar'
+    implementation 'com.ogaclejapan.smarttablayout:utils-v4:1.7.0@aar'
     //lottie
     implementation 'com.airbnb.android:lottie:2.5.0'
     implementation fileTree(include: ['*.jar'], dir: 'libs')
