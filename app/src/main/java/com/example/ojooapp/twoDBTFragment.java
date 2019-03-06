@@ -17,6 +17,7 @@ public class twoDBTFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
         View v = inflater.inflate(R.layout.fragment_towdbt,container,false);
         return v;
     }
@@ -26,8 +27,6 @@ public class twoDBTFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         TextView tvtwoDBTFragment = view.findViewById(R.id.tvtwoDBTFragment);
-
-
 
     }
 }

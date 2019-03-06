@@ -4,13 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:orientation="vertical"
     tools:context=".twoDBTFragment">
+
 
     <TextView
         android:id="@+id/tvtwoDBTFragment"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/city_name"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp" />
+
+
+    <ImageView
+        android:id="@+id/ivWeatherIcon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_gravity="center"
-        android:text="Test Fragment" />
+        android:layout_marginTop="30dp"
+        android:src="@drawable/sun" />
+
+    <TextView
+        android:id="@+id/tvDegree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="45"
+        android:textColor="#FFFFFF"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="It's too hot"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+
+
+
+
+
 
 </LinearLayout>
