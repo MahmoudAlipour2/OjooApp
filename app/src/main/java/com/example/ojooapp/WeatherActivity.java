@@ -21,8 +21,8 @@ public class WeatherActivity extends AppCompatActivity {
 
         WeatherAdapter adapter = new WeatherAdapter(getSupportFragmentManager());
         vpWeather.setAdapter(adapter);
-
         tab.setupWithViewPager(vpWeather);
+        tab.getTabAt(2).select();
 
     }
 }

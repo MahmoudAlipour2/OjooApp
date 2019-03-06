@@ -21,7 +21,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tab"
-        android:background="?attr/colorPrimary"
+        android:background="#f44174"
+        app:tabIndicatorColor="#a4f442"
+        app:tabSelectedTextColor="#4bf442"
+        app:tabIconTintMode="multiply"
+        android:pointerIcon="arrow"
+        android:isScrollContainer="true"
+        app:tabIconTint="@color/design_default_color_primary"
+
         />
 
 
