@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ojooapp">
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5efd74256b083846bdbd80de40146023e6a124c0
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,7 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5efd74256b083846bdbd80de40146023e6a124c0
         <activity android:name=".GetDataActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,10 +27,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".SplashActivity"></activity>
         <activity android:name=".MainActivity">
 
         </activity>
+=======
+        <activity android:name=".SplashActivity">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+>>>>>>> 5efd74256b083846bdbd80de40146023e6a124c0
     </application>
 
 </manifest>

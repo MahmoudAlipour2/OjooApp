@@ -6,5 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".GetDataActivity">
 
+<<<<<<< HEAD
+=======
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="GetData"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/btnGetData"
+
+        />
+
+
+
+
+
+>>>>>>> 5efd74256b083846bdbd80de40146023e6a124c0
 
 </LinearLayout>
