@@ -20,7 +20,13 @@ android {
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
+
+    implementation 'com.loopj.android:android-async-http:1.4.9'
     implementation 'com.airbnb.android:lottie:2.5.0'
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
